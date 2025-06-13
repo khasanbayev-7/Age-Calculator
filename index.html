@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 id="title">Age Calculator</h1>
+      <div class="language-switcher">
+  <label for="language"></label>
+  <select id="language">
+    <option value="en">English</option>
+    <option value="uz">O‘zbekcha</option>
+    <option value="ru">Русский</option>
+  </select>
+</div>
+
+      <div class="top-controls">
+        <button id="theme-toggle">🌓</button>
+      </div>
+    </div>
+
+    <div class="date-picker">
+      <label for="birthdate" id="label-birth">Choose your birth date:</label>
+      <input type="date" id="birthdate" />
+    </div>
+
+    <div class="countdown" id="countdown">Next birthday in: -- days</div>
+
+    <div class="highlight-info">
+      <p id="birth-weekday" class="info"></p>
+      <p id="live-time" class="info"></p>
+    </div>
+
+    <div id="results" class="results hidden">
+      <div class="box"><h2 id="years-label">Years</h2><p id="years">-</p></div>
+      <div class="box"><h2 id="months-label">Months</h2><p id="months">-</p></div>
+      <div class="box"><h2 id="days-label">Days</h2><p id="days">-</p></div>
+      <div class="box"><h2 id="hours-label">Hours</h2><p id="hours">-</p></div>
+      <div class="box"><h2 id="seconds-label">Seconds</h2><p id="seconds">-</p></div>
+      <div class="box large-box"><h2 id="milliseconds-label">Milliseconds</h2><p id="milliseconds">-</p></div>
+    </div>
+  </div>
+  <footer>
+    <p>v1.0.0 - <a href="https://github.com/khasanbayev-7/age-calculator" target="_blank">Age Calculator</a></p>
+  </footer>
+
+  <script src="lang.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
