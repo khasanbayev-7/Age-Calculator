@@ -29,7 +29,10 @@ This is a modern, multilingual Age Calculator website that allows users to:
 3. Choose your birth date and explore the results!
 
 ## 📸 Preview
-![Screenshot](screenshot.png) <!-- optional if you have a screenshot -->
+![Screenshot](![image](https://github.com/user-attachments/assets/d6acd4e3-452f-41ab-8396-8f69aa498d7e)
+![image](https://github.com/user-attachments/assets/6027534f-af1a-470a-b82b-31d62c99645d)
+![image](https://github.com/user-attachments/assets/032a5063-f093-4d7d-8564-bbebb84ed17f)
+) 
 
 ## 📝 License
 This project is open-source and free to use for any purpose.
